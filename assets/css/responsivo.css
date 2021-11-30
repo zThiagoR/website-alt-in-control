@@ -1,0 +1,56 @@
+@media screen and (max-width: 2300px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+   nav > li {
+        width: 10%; ;
+    }
+}
+
+@media screen and (max-width: 1700px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    nav > li {
+        width: 15%;
+        height: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        height: 100vh;
+    }
+
+    nav {
+        height: 3rem;
+    }
+
+    li {
+        width: 15%;
+    }
+}
+
+@media screen and (max-device-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    main {
+        height: 100vh;
+    }
+
+    nav {
+        height: 3rem;
+    }
+
+    li {
+        width: 25%;
+    }
+}
